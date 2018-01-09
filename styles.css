@@ -1,0 +1,70 @@
+* {
+    
+}
+
+.logo {
+    border: 5px solid black;
+    color: peru;
+    width: 10%;
+    height: 75px;
+    text-align: center;
+    padding: 0em 2em;
+
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 5em;
+
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+/*Block area*/
+.section {
+    background-color: beige;
+
+}
+.section h1 {
+    text-align: left;
+    margin-bottom: 3px;
+}
+.section p {
+    font-size: 1.6em;
+    margin-bottom: 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.article {
+    border: 2px solid black;
+    background-color: white;
+    font-size: 2em;
+    width: 50%;
+    float: right;
+    padding: 40px;
+
+}
+
+/*article section*/
+
+section {
+    display: table;
+}
+
+.container {
+    display: table-row;
+    
+}
