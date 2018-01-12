@@ -8,7 +8,11 @@
 
 
 .primary-color {
-  color: #de6c3b; }
+  color: #de6c3b; 
+}
+.secondary {
+  color: rgb(186, 183, 183)
+}
 
 .uppercase {
   text-transform: uppercase; }
@@ -23,7 +27,7 @@
 .box-design {
   background-color: rgb(244, 244, 238);
   height: 500px;
-  padding: 78px;
+  padding: 100px;
 }
 
 .box {
@@ -140,7 +144,10 @@ h2 {
 
 div h3 {
   background: url("file:///Users/InnovateBham_10/Desktop/resume/images/icons/linkgray.svg") 100% 25% no-repeat;
-  padding-left: 16px; }
+  padding-left: 16px; 
+}
+
+
 
 hr {
   height: 5px;
@@ -150,14 +157,17 @@ hr {
 .top-form p {
   font-size: 26px;
   float: left;
-  display: inline-block;
 }
 
 .right {
   float: right;
-  display: inline-block;
+  display: inline-grid;
 }
+#lets-talk {
+  font-size: 4em;
+  color: black;
 
+}
 input {
   width: 100%; }
 
@@ -170,7 +180,7 @@ input[type=text] {
 
  .form { 
   width: 100%;
-  padding: 15px;
+  padding: 0px 100px;
   margin: 5px 0 22px 0;
   display: inline-block;
 }
@@ -179,9 +189,9 @@ input[type=text] {
   text-decoration: none;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #f0f0eb;
-  font-size: 25px;
-  padding: 0 15px;
-  line-height: 32px;
+  font-size: 33px;
+  padding: 15px 41px;
+  line-height: 20px;
   height: auto;
   border-radius: 6px;
   display: inline-block;
@@ -191,18 +201,19 @@ input[type=text] {
 
 /*bottom of page*/
 footer {
-  display: inline-block;
+  
 }
 .footer {
   height: 0px;
   background-color:;
-  width: 100%; 
+  width: 80%; 
   box-shadow: 0 0 9px 0px black;
 }
 
 .links {
-  display: inline-block;
-  width: 100%; 
+  display: flex;
+  width: 100%;
+  padding: 23px 400px; 
 }
 footer p {
   text-align: center;
@@ -220,4 +231,3 @@ footer p {
   height: 40px;
   width: 40px; }
 
-/*# sourceMappingURL=styles.css.map */
