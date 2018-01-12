@@ -1,11 +1,8 @@
-* {
-  box-sizing: border-box; }
+
 
 .section-padding {
   padding: 3em 5em; 
 }
-
-
 
 .primary-color {
   color: #de6c3b; 
@@ -68,7 +65,9 @@
 
 .flex-img img {
   height: 300px;
-  width: 300px; }
+  width: 300px; 
+}
+
 
 
 
@@ -143,7 +142,7 @@ h2 {
 
 
 div h3 {
-  background: url("file:///Users/InnovateBham_10/Desktop/resume/images/icons/linkgray.svg") 100% 25% no-repeat;
+  background: url("file:///Users/InnovateBham_10/Desktop/resume/images/linkgray.svg") 100% 25% no-repeat;
   padding-left: 16px; 
 }
 
@@ -165,7 +164,7 @@ hr {
 }
 #lets-talk {
   font-size: 4em;
-  color: black;
+  color: #de6c3b;
 
 }
 input {
